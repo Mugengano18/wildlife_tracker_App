@@ -5,8 +5,7 @@ import java.util.TimerTask;
 public abstract class Animals {
     public int  id;
     public String name;
-    public String health;
-    public int Age;
+    public boolean danger;
     public Timer timer;
 
     public int getId() {
@@ -16,14 +15,11 @@ public abstract class Animals {
     public String getName() {
         return name;
     }
-
-    public String getHealth() {
-        return health;
+    public boolean isEndangered() {
+        return danger;
     }
 
-    public int  getAge() {
-        return Age;
-    }
+
 
 
 
